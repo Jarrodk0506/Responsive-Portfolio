@@ -230,18 +230,21 @@ input[type=text], textarea {
   
   
 @media screen and (max-width: 768px) {
-  .body{
-      background: red;
+  body{
+    background-image: linear-gradient(black, grey, red);
   }  
     
 }
 
 @media screen and (max-width: 640px) { 
-    .header{
+    header{
         position: static;
     }
-    .body{
-        background: blue;
+    h1{
+        position: static;
+    }
+    body{
+        background-image: linear-gradient(black, grey, blue);
     }
     
 }
