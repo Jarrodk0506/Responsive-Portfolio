@@ -30,17 +30,17 @@ body{
 
 header{
     width: 100%;
-    background: #ffffff;
+    background: rgb(19, 18, 18);
     margin-bottom: 0;
     margin: 0 auto;
     padding: 50px;
     top: 0;
     left: 0;
     position: relative;
-    border-color: #cccccc;
+    border-color:#4aaaa5;
     border-style: solid;
-    border-width:1px;
-    border-bottom-width: 0;
+    border-width:0px;
+    border-bottom-width:2px;
     box-sizing: border-box;
 }
 
@@ -52,15 +52,17 @@ footer{
     position: fixed;
     left: 0;
     bottom: 0;
+    height: 50px;
     width: 100%;
     padding: 15px;
     border-style: solid;
-    border-top-width:8px;
+    border-top-width:4px;
     border-bottom-width: 0;
     border-left-width: 0;
     border-right-width: 0;
     z-index: 1000;
 }
+
 
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
