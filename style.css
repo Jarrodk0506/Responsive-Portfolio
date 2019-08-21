@@ -62,7 +62,19 @@ footer{
     border-right-width: 0;
     z-index: 1000;
 }
-
+#resume{
+    color: white;
+    border-color: #4aaaa5;
+    border-style: solid;
+    border-width: 1px;
+    padding:2px;
+    text-decoration: none;
+    background-color:  #4aaaa5;
+}
+#github{
+    padding: 10px;
+    margin-bottom: 20px;
+}
 
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
